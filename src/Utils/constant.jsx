@@ -32,3 +32,5 @@ export const navlink = [
 
 export const bars = <FaBars size={30} />;
 export const times = <FaTimes size={30} />;
+
+export const hello = true;
