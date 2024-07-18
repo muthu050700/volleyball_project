@@ -8,6 +8,9 @@ export const logo = logo1;
 export const bg_Image =
   "https://images3.alphacoders.com/134/thumb-1920-1349293.jpeg";
 
+export const bg_Image2 =
+  "https://sportsfoundation.org/wp-content/uploads/2024/02/Why-Volleyball-is-the-Hardest-Sport-.png";
+
 //nav links
 export const navlink = [
   {
