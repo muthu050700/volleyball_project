@@ -5,10 +5,8 @@ import image from "../public/bg-image-mobile.jpg";
 export const logo = logo1;
 
 //Home Image
-export const bg_Image =
-  "https://images3.alphacoders.com/134/thumb-1920-1349293.jpeg";
 
-export const bg_Image2 = image;
+export const bg_Image = image;
 
 //nav links
 export const navlink = [

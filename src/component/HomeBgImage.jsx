@@ -1,11 +1,11 @@
-import { bg_Image, bg_Image2 } from "../Utils/constant";
+import { bg_Image } from "../Utils/constant";
 
 const HomeBgImage = () => {
   return (
     <>
       <div
-        className="bg-cover md:bg-top bg-bottom w-full h-screen"
-        style={{ backgroundImage: `url(${bg_Image2})` }}
+        className="bg-cover md:bg-top bg-bottom w-full h-screlg"
+        style={{ backgroundImage: `url(${bg_Image})` }}
         // className={`h-screen w-full  bg-center bg-gradient-to-t from-zinc-600 to-zinc-900 relative `}
       >
         {/* <img
@@ -26,19 +26,19 @@ const HomeBgImage = () => {
               Volleyball: a sport for all, a sport for life.
             </h2>
           </div>
-          <div className="flex flex-wrap justify-center gap-4 md:flex-col md:flex-1 text-lg xl:text-2xl text-white">
+          <div className="flex flex-wrap justify-center gap-4 md:flex-col md:flex-1 text-lg lg:text-2xl text-white">
             <div className="flex justify-center ">
-              <p className=" xl:w-[150px] xl:h-[150px] w-[100px] h-[100px] justify-center flex text-center items-center backdrop-blur-sm bg-black/30 hover:bg-black/50 cursor-pointer  rounded-full">
+              <p className=" lg:w-[150px] lg:h-[150px] w-[100px] h-[100px] justify-center flex text-center items-center backdrop-blur-sm bg-black/30 hover:bg-black/50 cursor-pointer  rounded-full">
                 Play for Fun
               </p>
             </div>
             <div className="flex justify-end ">
-              <p className=" xl:w-[150px] xl:h-[150px] w-[100px] h-[100px] justify-center flex text-center items-center backdrop-blur-sm bg-black/30 hover:bg-black/50 cursor-pointer rounded-full">
+              <p className=" lg:w-[150px] lg:h-[150px] w-[100px] h-[100px] justify-center flex text-center items-center backdrop-blur-sm bg-black/30 hover:bg-black/50 cursor-pointer rounded-full">
                 Play for Fitness
               </p>
             </div>
             <div className="flex justify-center">
-              <p className=" xl:w-[150px] xl:h-[150px] w-[100px] h-[100px] justify-center flex text-center items-center backdrop-blur-sm bg-black/30 hover:bg-black/50 cursor-pointer rounded-full">
+              <p className=" lg:w-[150px] lg:h-[150px] w-[100px] h-[100px] justify-center flex text-center items-center backdrop-blur-sm bg-black/30 hover:bg-black/50 cursor-pointer rounded-full">
                 Play for Friendship
               </p>
             </div>
