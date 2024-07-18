@@ -1,6 +1,6 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import logo1 from "../public/logo1.png";
-
+import image from "../public/bg-image-mobile.jpg";
 //logo- image
 export const logo = logo1;
 
@@ -8,8 +8,7 @@ export const logo = logo1;
 export const bg_Image =
   "https://images3.alphacoders.com/134/thumb-1920-1349293.jpeg";
 
-export const bg_Image2 =
-  "https://sportsfoundation.org/wp-content/uploads/2024/02/Why-Volleyball-is-the-Hardest-Sport-.png";
+export const bg_Image2 = image;
 
 //nav links
 export const navlink = [

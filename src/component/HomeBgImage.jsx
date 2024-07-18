@@ -4,8 +4,8 @@ const HomeBgImage = () => {
   return (
     <>
       <div
-        className="bg-cover md:bg-top bg-bottom w-full h-screen "
-        style={{ backgroundImage: `url(${bg_Image2}) ` }}
+        className="bg-cover md:bg-top bg-bottom w-full h-screen"
+        style={{ backgroundImage: `url(${bg_Image2})` }}
         // className={`h-screen w-full  bg-center bg-gradient-to-t from-zinc-600 to-zinc-900 relative `}
       >
         {/* <img
