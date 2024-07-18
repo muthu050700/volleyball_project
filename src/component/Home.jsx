@@ -1,9 +1,9 @@
-import React from "react";
+import HomeBgImage from "./HomeBgImage";
 
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <HomeBgImage />
     </div>
   );
 };

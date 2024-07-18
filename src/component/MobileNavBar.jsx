@@ -13,8 +13,8 @@ const MobileNavBar = ({ pathname, nav, handleNav }) => {
       <div
         className={`${
           nav
-            ? "absolute left-[-100%] top-0 flex flex-col justify-center items-center  h-full dark:bg-neutral-900  ease-in-out duration-300 md:hidden"
-            : " absolute left-0 top-0 sm:w-[50%] w-[100%] flex flex-col justify-center items-center  h-full dark:bg-neutral-900 ease-in-out duration-300 md:hidden pt-3 "
+            ? "fixed left-[-100%] top-0 flex flex-col justify-center items-center  h-full dark:bg-neutral-900  ease-in-out duration-300 md:hidden"
+            : " fixed left-0 top-0 sm:w-[50%] w-[100%] flex flex-col justify-center items-center  h-full dark:bg-neutral-900 ease-in-out duration-300 md:hidden pt-3 "
         }`}
       >
         {navlink.map((value) => {

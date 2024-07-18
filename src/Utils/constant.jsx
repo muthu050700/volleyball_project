@@ -4,6 +4,10 @@ import logo1 from "../public/logo1.png";
 //logo- image
 export const logo = logo1;
 
+//Home Image
+export const bg_Image =
+  "https://images3.alphacoders.com/134/thumb-1920-1349293.jpeg";
+
 //nav links
 export const navlink = [
   {
