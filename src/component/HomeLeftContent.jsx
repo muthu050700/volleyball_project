@@ -32,9 +32,10 @@ const HomeLeftContent = () => {
             animate="visible"
             transition={{
               duration: 2,
-              ease: "easeOut",
+              ease: "easeIn",
               delay: 0.3,
               type: "spring",
+              stiffness: 60,
             }}
             className=" inline-block"
           >
@@ -46,9 +47,10 @@ const HomeLeftContent = () => {
             animate="visible"
             transition={{
               duration: 2,
-              ease: "easeOut",
+              ease: "easeIn",
               delay: 0.7,
               type: "spring",
+              stiffness: 60,
             }}
             className=" inline-block bg-gradient-to-tr from-[#e9e9e9] to-[#0D202E] text-transparent bg-clip-text"
           >
@@ -61,9 +63,10 @@ const HomeLeftContent = () => {
             type="spring"
             transition={{
               duration: 2,
-              ease: "easeOut",
+              ease: "easeIn",
               delay: 1.1,
               type: "spring",
+              stiffness: 60,
             }}
             className="inline-block lg:block"
           >
@@ -89,9 +92,10 @@ const HomeLeftContent = () => {
           animate="visible"
           transition={{
             duration: 2,
-            ease: "easeOut",
+            ease: "easeIn",
             delay: 0.8,
             type: "spring",
+            stiffness: 60,
           }}
           className="flex text-xl gap-4 md:text-2xl lg:text-4xl font-bold pt-4 md:pt-12 md:px-4 "
         >

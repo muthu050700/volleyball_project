@@ -5,7 +5,7 @@ const HomeBgImage = () => {
   return (
     <>
       <div
-        className="bg-cover md:bg-top bg-bottom w-full h-screlg"
+        className="bg-cover md:bg-top bg-bottom w-full"
         style={{ backgroundImage: `url(${bg_Image})` }}
       >
         <div className="absolute bg-black opacity-60 w-full h-screen"></div>

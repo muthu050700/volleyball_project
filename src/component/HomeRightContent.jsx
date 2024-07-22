@@ -23,6 +23,7 @@ const HomeRightContent = () => {
           duration: 3,
           ease: "easeInOut",
           type: "spring",
+          stiffness: 30,
         }}
       >
         <motion.p
@@ -43,6 +44,7 @@ const HomeRightContent = () => {
           duration: 3,
           ease: "easeInOut",
           type: "spring",
+          stiffness: 30,
         }}
         className="flex justify-end "
       >
@@ -64,6 +66,7 @@ const HomeRightContent = () => {
           duration: 3,
           ease: "easeInOut",
           type: "spring",
+          stiffness: 30,
         }}
         className="flex justify-center"
       >
