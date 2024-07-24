@@ -20,11 +20,15 @@ import teamworkIcon from "../public/Icons/teamwork.png";
 import setterIcon from "../public/Icons/setter.png";
 import receiveIcon from "../public/Icons/receive.png";
 import leadershipIcon from "../public/Icons/leadership.png";
+import flexibilityIcon from "../public/Icons/flexibility.png";
+import consistencyIcon from "../public/Icons/consistency.png";
+import pressureIcon from "../public/Icons/pressure.png";
+import defensivetransition from "../public/position-info-img/defensivetransition.jpg";
 export const icon = spikerIcon;
 //position info image
 import attacking from "../public/position-info-img/position-img-spike.webp";
 import blocking from "../public/position-info-img/blocking.jpg";
-import defence from "../public/position-info-img/defence.jpg";
+import defencePosition from "../public/position-info-img/defence.jpg";
 import setterPosition from "../public/position-info-img/setter.jpg";
 import servePosition from "../public/position-info-img/serve.jpg";
 import communication from "../public/position-info-img/communication.jpeg";
@@ -33,6 +37,12 @@ import ballDistribution from "../public/position-info-img/balldistribution.avif"
 import playMaking from "../public/position-info-img/playmaking.jpg";
 import serveReception from "../public/position-info-img/servereception.jpg";
 import leaderShip from "../public/position-info-img/leadership.jpg";
+import digging from "../public/position-info-img/digging.jpg";
+import passing from "../public/position-info-img/passing.jpg";
+import flexibility from "../public/position-info-img/flexibility.jpg";
+import strategyImage from "../public/position-info-img/strategy.jpg";
+import consistency from "../public/position-info-img/consistency.jpg";
+import pressuresituation from "../public/position-info-img/pressuresituation.jpg";
 // export const img =
 //   "https://img.freepik.com/free-photo/team-adult-men-playing-competitive-volleyball-indoors-generated-by-ai_188544-14006.jpg?t=st=1721664555~exp=1721668155~hmac=70dc5bcf9f61f20295c735c46e1884a2e236d61977a518e7b1c693087a927631&w=1060";
 export const spike = spikerIcon;
@@ -135,21 +145,21 @@ export const playerPositions = [
   },
   {
     positionName: "Libero",
-    id: "Libero",
+    id: "libero",
     description:
       "The **Libero** is a defensive specialist who plays in the back row, focusing on receiving serves and digging up attacks.",
     image: libero,
   },
   {
     positionName: "Defensive Specialist",
-    id: "Defensive Specialist",
+    id: "defensive-specialist",
     description:
       "The **Defensive Specialist** focuses on defense and receiving serves, playing mainly in the back row to strengthen the team's defense.",
     image: defense,
   },
   {
     positionName: "Serving Specialist",
-    id: "Serving Specialist",
+    id: "serving-specialist",
     description:
       "The **Serving Specialist** is brought in specifically to deliver strong and accurate serves to challenge the opposing team.",
     image: serving,
@@ -194,7 +204,7 @@ export const positionDetails = [
         id: "Defense",
         icon: defenceIcon,
         name: "Defense",
-        image: defence,
+        image: defencePosition,
         description:
           "They participate in back-row defense, including digging and serve reception, to keep the ball in play and transition to offense.",
       },
@@ -245,7 +255,7 @@ export const positionDetails = [
         id: "Defense",
         icon: defenceIcon,
         name: "Defense",
-        image: defence,
+        image: defencePosition,
         description:
           "Participates in back-row defense, including digging and serve reception, to keep the ball in play and transition to offense.",
       },
@@ -324,7 +334,7 @@ export const positionDetails = [
         name: "Defense",
         id: "Defense",
         icon: defenceIcon,
-        image: defence,
+        image: defencePosition,
         description:
           "Participates in front-row blocking and back-row digging to contribute to the team's overall defense.",
       },
@@ -360,5 +370,236 @@ export const positionDetails = [
     ],
     importance:
       "The Setter is crucial for orchestrating the team's offense and creating scoring opportunities. Their ability to make quick, strategic decisions and deliver precise sets determines the effectiveness of the team's attack. As the on-court leader, the Setter's contributions are vital to the team's overall performance and success.",
+  },
+  {
+    title: "Responsibilities",
+    icon: defenceIcon,
+    name: "Libero",
+    image: libero,
+    id: "libero",
+    description:
+      "The Libero is a specialized defensive player focused on receiving serves, digging attacks, and ensuring consistent passing to maintain ball control. This position requires exceptional defensive skills and quick reflexes.",
+    purpose:
+      "To enhance the team's defensive capabilities, ensure precise passing, and maintain ball control during serve receptions and defensive plays.",
+    responsibilities: [
+      {
+        name: "Serve Reception",
+        id: "Serve Reception",
+        image: serveReception,
+        icon: receiveIcon,
+        description:
+          "Primarily responsible for receiving serves and making accurate passes to the setter to initiate the team's offense.",
+      },
+      {
+        name: "Digging",
+        id: "Digging",
+        icon: receiveIcon,
+        image: digging,
+        description:
+          "Digs attacks from the opposing team, keeping the ball in play and preventing it from hitting the floor.",
+      },
+      {
+        name: "Passing",
+        id: "Passing",
+        icon: setterIcon,
+        image: passing,
+        description:
+          "Delivers accurate passes to the setter to facilitate smooth offensive transitions.",
+      },
+      {
+        name: "Defense",
+        id: "Defense",
+        icon: defenceIcon,
+        image: defencePosition,
+        description:
+          "Covers the back row, ensuring strong defensive coverage and quick reactions to opponents' attacks.",
+      },
+      {
+        name: "Communication",
+        id: "Communication",
+        icon: communicationIcon,
+        image: communication,
+        description:
+          "Communicates with teammates to organize defensive strategies and positioning.",
+      },
+      {
+        name: "Leadership",
+        id: "Leadership",
+        icon: leadershipIcon,
+        image: leaderShip,
+        description:
+          "Leads the defense by example, encouraging and guiding teammates during defensive plays.",
+      },
+    ],
+    skills: [
+      "Defensive Skills: Must have excellent digging and passing abilities.",
+      "Quick Reflexes: Requires rapid reactions to opponents' attacks.",
+      "Court Awareness: Needs to anticipate plays and position correctly for defensive coverage.",
+      "Communication: Must effectively communicate with teammates to coordinate defense.",
+      "Consistency: Should maintain consistent performance in serve reception and passing.",
+    ],
+    attributes: [
+      "Agility: Must be quick and agile to cover the court and react to attacks.",
+      "Focus: Requires a high level of concentration to read the game and respond appropriately.",
+      "Endurance: Needs stamina to perform consistently throughout the match.",
+      "Composure: Must stay calm under pressure to execute precise defensive plays.",
+      "Leadership: Needs leadership qualities to organize and motivate the defensive unit.",
+    ],
+    importance:
+      "The Libero is crucial for strengthening the team's defense and maintaining ball control. Their ability to receive serves accurately, dig opponents' attacks, and deliver precise passes significantly impacts the team's performance. As a defensive leader, the Libero's contributions are vital to the team's overall success and resilience.",
+  },
+  {
+    title: "Responsibilities",
+    image: defense,
+    icon: defenceIcon,
+    name: "Defensive Specialist",
+    id: "defensive-specialist",
+    description:
+      "The Defensive Specialist is a player who focuses on back-row defense, excelling in digging, serve reception, and maintaining overall defensive stability. This position requires quick reflexes, consistent passing, and excellent court awareness.",
+    purpose:
+      "To enhance the team's defensive stability, provide consistent and accurate passing, and cover the court effectively during defensive plays.",
+    responsibilities: [
+      {
+        name: "Serve Reception",
+        id: "Serve Reception",
+        image: serveReception,
+        icon: receiveIcon,
+        description:
+          "Responsible for receiving serves and making accurate passes to the setter to start the team's offense.",
+      },
+      {
+        name: "Digging",
+        id: "Digging",
+        icon: receiveIcon,
+        image: digging,
+        description:
+          "Digs attacks from the opposing team, keeping the ball in play and preventing it from hitting the floor.",
+      },
+      {
+        name: "Passing",
+        id: "Passing",
+        icon: setterIcon,
+        image: passing,
+        description:
+          "Delivers accurate passes to the setter to facilitate smooth offensive transitions.",
+      },
+      {
+        name: "Defense",
+        id: "Defense",
+        icon: defenceIcon,
+        image: defencePosition,
+        description:
+          "Covers the back row, ensuring strong defensive coverage and quick reactions to opponents' attacks.",
+      },
+      {
+        name: "Communication",
+        id: "Communication",
+        icon: communicationIcon,
+        image: communication,
+        description:
+          "Communicates with teammates to organize defensive strategies and positioning.",
+      },
+      {
+        name: "Flexibility",
+        image: flexibility,
+        id: "Flexibility",
+        icon: flexibilityIcon,
+        description:
+          "Can substitute for any back-row player, providing the team with defensive depth and versatility.",
+      },
+    ],
+    skills: [
+      "Defensive Skills: Must have excellent digging and passing abilities.",
+      "Quick Reflexes: Requires rapid reactions to opponents' attacks.",
+      "Court Awareness: Needs to anticipate plays and position correctly for defensive coverage.",
+      "Communication: Must effectively communicate with teammates to coordinate defense.",
+      "Consistency: Should maintain consistent performance in serve reception and passing.",
+    ],
+    attributes: [
+      "Agility: Must be quick and agile to cover the court and react to attacks.",
+      "Focus: Requires a high level of concentration to read the game and respond appropriately.",
+      "Endurance: Needs stamina to perform consistently throughout the match.",
+      "Composure: Must stay calm under pressure to execute precise defensive plays.",
+      "Adaptability: Needs the ability to adapt to various defensive situations and substitute effectively.",
+    ],
+    importance:
+      "The Defensive Specialist is crucial for bolstering the team's defense and ensuring consistent ball control. Their ability to receive serves accurately, dig opponents' attacks, and deliver precise passes significantly impacts the team's performance. As a flexible defensive player, the Defensive Specialist's contributions are vital to the team's overall defensive resilience and success.",
+  },
+  {
+    title: "Responsibilities",
+    name: "Serving Specialist",
+    image: serving,
+    icon: serveIcon,
+    id: "serving-specialist",
+    description:
+      "The Serving Specialist is a player whose primary role is to serve the ball effectively and strategically. This position requires exceptional serving skills, consistency, and the ability to place serves accurately to disrupt the opponent's offense.",
+    purpose:
+      "To deliver powerful and strategic serves that challenge the opponent's serve reception, creating opportunities for the team to score points directly or set up strong defensive plays.",
+    responsibilities: [
+      {
+        name: "Serving",
+        id: "Serving",
+        image: servePosition,
+        icon: serveIcon,
+        description:
+          "Delivers powerful and accurate serves to target weaknesses in the opponent's serve reception.",
+      },
+      {
+        name: "Strategic Placement",
+        id: "Strategic Placement",
+        image: strategyImage,
+        icon: serveIcon,
+        description:
+          "Aims serves at specific areas of the opponent's court to disrupt their offensive setup.",
+      },
+      {
+        name: "Consistency",
+        id: "Consistency",
+        image: consistency,
+        icon: consistencyIcon,
+        description:
+          "Maintains a high level of consistency in serving to avoid errors and maximize scoring opportunities.",
+      },
+      {
+        name: "Pressure Situations",
+        id: "Pressure Situations",
+        image: pressuresituation,
+        icon: pressureIcon,
+        description:
+          "Handles serving in high-pressure situations, such as match points or crucial moments in the game.",
+      },
+      {
+        name: "Communication",
+        id: "Communication",
+        icon: communicationIcon,
+        image: communication,
+        description:
+          "Communicates with the team to adjust serving strategies based on the opponent's weaknesses and game dynamics.",
+      },
+      {
+        name: "Defensive Transition",
+        id: "Defensive Transition",
+        image: defensivetransition,
+        icon: blockIcon,
+        description:
+          "Transitions to a defensive role after serving, contributing to the team's overall defense.",
+      },
+    ],
+    skills: [
+      "Serving Technique: Must have exceptional serving skills, including power and accuracy.",
+      "Strategic Thinking: Requires the ability to place serves strategically to challenge the opponent.",
+      "Consistency: Needs to serve consistently well under various game conditions.",
+      "Composure: Must stay calm and focused, especially during high-pressure serves.",
+      "Defensive Awareness: Should transition quickly to a defensive role after serving.",
+    ],
+    attributes: [
+      "Focus: Needs high concentration to deliver accurate and effective serves.",
+      "Stamina: Requires endurance to serve consistently throughout the match.",
+      "Agility: Must be quick and agile to transition to defense after serving.",
+      "Confidence: Needs confidence to execute serves effectively, especially in pressure situations.",
+      "Team Awareness: Must be aware of team strategies and opponent's weaknesses to serve effectively.",
+    ],
+    importance:
+      "The Serving Specialist plays a crucial role in setting the tone for each rally with powerful and strategic serves. Their ability to deliver consistent and challenging serves can create scoring opportunities and put pressure on the opponent's serve reception. As a key contributor to the team's offense and defense, the Serving Specialist's performance is vital to the team's overall success.",
   },
 ];
