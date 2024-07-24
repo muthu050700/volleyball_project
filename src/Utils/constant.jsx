@@ -17,6 +17,9 @@ import defenceIcon from "../public/Icons/defence.png";
 import serveIcon from "../public/Icons/serve.png";
 import communicationIcon from "../public/Icons/communication.png";
 import teamworkIcon from "../public/Icons/teamwork.png";
+import setterIcon from "../public/Icons/setter.png";
+import receiveIcon from "../public/Icons/receive.png";
+import leadershipIcon from "../public/Icons/leadership.png";
 export const icon = spikerIcon;
 //position info image
 import attacking from "../public/position-info-img/position-img-spike.webp";
@@ -26,6 +29,10 @@ import setterPosition from "../public/position-info-img/setter.jpg";
 import servePosition from "../public/position-info-img/serve.jpg";
 import communication from "../public/position-info-img/communication.jpeg";
 import teamWork from "../public/position-info-img/teamwork.jpeg";
+import ballDistribution from "../public/position-info-img/balldistribution.avif";
+import playMaking from "../public/position-info-img/playmaking.jpg";
+import serveReception from "../public/position-info-img/servereception.jpg";
+import leaderShip from "../public/position-info-img/leadership.jpg";
 // export const img =
 //   "https://img.freepik.com/free-photo/team-adult-men-playing-competitive-volleyball-indoors-generated-by-ai_188544-14006.jpg?t=st=1721664555~exp=1721668155~hmac=70dc5bcf9f61f20295c735c46e1884a2e236d61977a518e7b1c693087a927631&w=1060";
 export const spike = spikerIcon;
@@ -121,7 +128,7 @@ export const playerPositions = [
   },
   {
     positionName: "Setter",
-    id: "Setter",
+    id: "setter",
     description:
       "The **Setter** positions the ball for attackers, directing the team's offensive plays and making quick, strategic decisions.",
     image: setter,
@@ -177,7 +184,7 @@ export const positionDetails = [
       },
       {
         id: "Setting",
-        icon: spikerIcon,
+        icon: setterIcon,
         name: "Setting",
         image: setterPosition,
         description:
@@ -277,5 +284,81 @@ export const positionDetails = [
     ],
     importance:
       "The Left Wing Spiker is crucial for maintaining a strong attack and solid defense. Their ability to perform multiple roles, including attacking, blocking, and serve reception, makes them indispensable, ensuring the team can handle a variety of situations effectively. Their contributions often make the difference in tight matches.",
+  },
+  {
+    title: "Responsibilities",
+    name: "Setter",
+    id: "setter",
+    icon: setterIcon,
+    image: setter,
+    description:
+      "The Setter is a pivotal player who orchestrates the team's offense by setting up plays and distributing the ball to attackers. This position requires excellent ball-handling skills, quick decision-making, and strategic thinking.",
+    purpose:
+      "To control the flow of the game by delivering accurate sets to attackers, creating scoring opportunities, and facilitating smooth transitions from defense to offense.",
+    responsibilities: [
+      {
+        name: "Playmaking",
+        id: "Playmaking",
+        icon: setterIcon,
+        image: playMaking,
+        description:
+          "The primary role involves setting the ball for attackers, choosing the best options to outsmart the opponent's defense.",
+      },
+      {
+        name: "Ball Distribution",
+        id: "Ball Distribution",
+        icon: setterIcon,
+        image: ballDistribution,
+        description:
+          "Distributes the ball to various attackers to keep the opposing team off-balance and create diverse offensive plays.",
+      },
+      {
+        name: "Communication",
+        id: "Communication",
+        icon: communicationIcon,
+        image: communication,
+        description:
+          "Communicates constantly with teammates to coordinate plays, adjust strategies, and provide on-court leadership.",
+      },
+      {
+        name: "Defense",
+        id: "Defense",
+        icon: defenceIcon,
+        image: defence,
+        description:
+          "Participates in front-row blocking and back-row digging to contribute to the team's overall defense.",
+      },
+      {
+        name: "Serve Reception",
+        id: "Serve Reception",
+        image: serveReception,
+        icon: receiveIcon,
+        description:
+          "Works closely with other players to handle serve reception, ensuring accurate passes for the setup.",
+      },
+      {
+        name: "Leadership",
+        id: "Leadership",
+        icon: leadershipIcon,
+        image: leaderShip,
+        description:
+          "Acts as the on-court leader, directing teammates and making strategic decisions during the game.",
+      },
+    ],
+    skills: [
+      "Ball Handling: Must have exceptional control and accuracy when setting the ball.",
+      "Quick Decision-Making: Requires the ability to make rapid, strategic decisions based on the game's dynamics.",
+      "Strategic Thinking: Needs to anticipate opponents' moves and adjust plays accordingly.",
+      "Communication: Must effectively communicate with teammates to execute plays.",
+      "Defensive Skills: Should be capable in both blocking and digging.",
+    ],
+    attributes: [
+      "Leadership: Needs strong leadership qualities to guide and motivate the team.",
+      "Agility: Must be quick and agile to reach the ball and set from various positions on the court.",
+      "Court Awareness: High level of awareness to read the game and position teammates effectively.",
+      "Stamina: Must maintain high energy levels throughout the match to perform consistently.",
+    ],
+    importance:
+      "The Setter is crucial for orchestrating the team's offense and creating scoring opportunities. Their ability to make quick, strategic decisions and deliver precise sets determines the effectiveness of the team's attack. As the on-court leader, the Setter's contributions are vital to the team's overall performance and success.",
   },
 ];

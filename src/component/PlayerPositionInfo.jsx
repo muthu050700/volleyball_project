@@ -11,7 +11,7 @@ const PlayerPositionInfo = () => {
   // console.log(data);
   return (
     <div className="bg-slate-900 text-white relative">
-      <div className=" flex flex-col justify-center pt-[150px] lg:pt-0 ">
+      <div className=" flex flex-col justify-center lg:pt-0 ">
         <div className=" flex justify-center ">
           {positionDetails.map((value, index) => {
             return (
