@@ -1,5 +1,5 @@
 import { delay, motion } from "framer-motion";
-
+import { Link } from "react-router-dom";
 const PlayerPosition = ({ value, index }) => {
   return (
     <motion.div
@@ -52,17 +52,20 @@ const PlayerPosition = ({ value, index }) => {
         <h2 className=" font-bold text-xl">{value.positionName}</h2>
         <p className=" text-justify">{value.description}</p>
         <div className="w-full flex justify-end">
-          <motion.button
-            whileTap={{
-              scale: 0.8,
-              transition: {
-                duration: 0.3,
-              },
-            }}
-            className="bg-orange-500 px-3 py-2 text-lg font-medium rounded-md"
-          >
-            view in detail
-          </motion.button>
+          <Link to={"/positioninfo/" + value.id}>
+            {" "}
+            <motion.button
+              whileTap={{
+                scale: 0.8,
+                transition: {
+                  duration: 0.3,
+                },
+              }}
+              className="bg-orange-500 px-3 py-2 text-lg font-medium rounded-md"
+            >
+              view in detail
+            </motion.button>
+          </Link>
         </div>
       </motion.div>
     </motion.div>

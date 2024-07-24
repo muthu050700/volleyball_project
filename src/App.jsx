@@ -4,6 +4,8 @@ import Home from "./component/Home";
 import About from "./component/About";
 import Teams from "./component/Teams";
 import Tournaments from "./component/Tournaments";
+import PlayerPosition from "./component/PlayerPosition";
+import PlayerPositionInfo from "./component/PlayerPositionInfo";
 function App() {
   const appRouter = createBrowserRouter([
     {
@@ -25,6 +27,10 @@ function App() {
         {
           path: "/tournaments",
           element: <Tournaments />,
+        },
+        {
+          path: "/positioninfo/:positionid",
+          element: <PlayerPositionInfo />,
         },
       ],
     },

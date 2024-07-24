@@ -15,9 +15,15 @@ Currently, two official plugins are available:
 2. Components
 
 - App.jsx
+
   - Body.jsx
   - Header.jsx
     - Logo img
     - nav links
   - Body.jsx
     -background image
+    -body Content
+
+  - Player position
+    -VolleybalRoles
+    -Player Position
