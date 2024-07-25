@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.drills {
+  border-top-left-radius: 20rem 5rem;
+  border-top-right-radius: 20rem 5rem;
+  border-bottom-left-radius: 20rem 5rem;
+  border-bottom-right-radius: 20rem 5rem;
+}

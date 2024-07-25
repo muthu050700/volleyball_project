@@ -209,12 +209,6 @@ export const positionDetails = [
           "They participate in back-row defense, including digging and serve reception, to keep the ball in play and transition to offense.",
       },
     ],
-    skills: [
-      "Strong attacking and spiking abilities from the right side.",
-      "Effective blocking techniques, particularly against left-side hitters.",
-      "Basic setting skills to act as a backup setter.",
-      "Solid defensive skills, including serve reception and digging.",
-    ],
     icon: spike,
     image: rightwingspiker,
   },
@@ -278,20 +272,7 @@ export const positionDetails = [
     ],
     icon: spike,
     image: leftwingspiker,
-    skills: [
-      "Powerful Spiking: Must possess strong attacking skills to effectively spike the ball from the left side.",
-      "Blocking Ability: Requires excellent timing and technique to block right-side attacks from the opposing team.",
-      "Serve Reception: Should be skilled in receiving and accurately passing serves.",
-      "Defensive Capability: Must be adept at back-row defense, including digging and receiving serves.",
-      "Versatility: The ability to switch between offensive and defensive roles seamlessly.",
-    ],
-    attributes: [
-      "Physical Strength: Needs good upper body strength for powerful attacks and blocks.",
-      "Agility: Must be quick on their feet to transition between different roles during the game.",
-      "Height: Taller players are often preferred for their ability to block and hit effectively over the net.",
-      "Court Awareness: High level of awareness to read the game and anticipate opponents' moves.",
-      "Stamina: Must maintain high energy levels throughout the match to perform multiple roles effectively.",
-    ],
+
     importance:
       "The Left Wing Spiker is crucial for maintaining a strong attack and solid defense. Their ability to perform multiple roles, including attacking, blocking, and serve reception, makes them indispensable, ensuring the team can handle a variety of situations effectively. Their contributions often make the difference in tight matches.",
   },
@@ -355,19 +336,7 @@ export const positionDetails = [
           "Acts as the on-court leader, directing teammates and making strategic decisions during the game.",
       },
     ],
-    skills: [
-      "Ball Handling: Must have exceptional control and accuracy when setting the ball.",
-      "Quick Decision-Making: Requires the ability to make rapid, strategic decisions based on the game's dynamics.",
-      "Strategic Thinking: Needs to anticipate opponents' moves and adjust plays accordingly.",
-      "Communication: Must effectively communicate with teammates to execute plays.",
-      "Defensive Skills: Should be capable in both blocking and digging.",
-    ],
-    attributes: [
-      "Leadership: Needs strong leadership qualities to guide and motivate the team.",
-      "Agility: Must be quick and agile to reach the ball and set from various positions on the court.",
-      "Court Awareness: High level of awareness to read the game and position teammates effectively.",
-      "Stamina: Must maintain high energy levels throughout the match to perform consistently.",
-    ],
+
     importance:
       "The Setter is crucial for orchestrating the team's offense and creating scoring opportunities. Their ability to make quick, strategic decisions and deliver precise sets determines the effectiveness of the team's attack. As the on-court leader, the Setter's contributions are vital to the team's overall performance and success.",
   },
@@ -431,20 +400,7 @@ export const positionDetails = [
           "Leads the defense by example, encouraging and guiding teammates during defensive plays.",
       },
     ],
-    skills: [
-      "Defensive Skills: Must have excellent digging and passing abilities.",
-      "Quick Reflexes: Requires rapid reactions to opponents' attacks.",
-      "Court Awareness: Needs to anticipate plays and position correctly for defensive coverage.",
-      "Communication: Must effectively communicate with teammates to coordinate defense.",
-      "Consistency: Should maintain consistent performance in serve reception and passing.",
-    ],
-    attributes: [
-      "Agility: Must be quick and agile to cover the court and react to attacks.",
-      "Focus: Requires a high level of concentration to read the game and respond appropriately.",
-      "Endurance: Needs stamina to perform consistently throughout the match.",
-      "Composure: Must stay calm under pressure to execute precise defensive plays.",
-      "Leadership: Needs leadership qualities to organize and motivate the defensive unit.",
-    ],
+
     importance:
       "The Libero is crucial for strengthening the team's defense and maintaining ball control. Their ability to receive serves accurately, dig opponents' attacks, and deliver precise passes significantly impacts the team's performance. As a defensive leader, the Libero's contributions are vital to the team's overall success and resilience.",
   },
@@ -508,20 +464,7 @@ export const positionDetails = [
           "Can substitute for any back-row player, providing the team with defensive depth and versatility.",
       },
     ],
-    skills: [
-      "Defensive Skills: Must have excellent digging and passing abilities.",
-      "Quick Reflexes: Requires rapid reactions to opponents' attacks.",
-      "Court Awareness: Needs to anticipate plays and position correctly for defensive coverage.",
-      "Communication: Must effectively communicate with teammates to coordinate defense.",
-      "Consistency: Should maintain consistent performance in serve reception and passing.",
-    ],
-    attributes: [
-      "Agility: Must be quick and agile to cover the court and react to attacks.",
-      "Focus: Requires a high level of concentration to read the game and respond appropriately.",
-      "Endurance: Needs stamina to perform consistently throughout the match.",
-      "Composure: Must stay calm under pressure to execute precise defensive plays.",
-      "Adaptability: Needs the ability to adapt to various defensive situations and substitute effectively.",
-    ],
+
     importance:
       "The Defensive Specialist is crucial for bolstering the team's defense and ensuring consistent ball control. Their ability to receive serves accurately, dig opponents' attacks, and deliver precise passes significantly impacts the team's performance. As a flexible defensive player, the Defensive Specialist's contributions are vital to the team's overall defensive resilience and success.",
   },
@@ -585,20 +528,7 @@ export const positionDetails = [
           "Transitions to a defensive role after serving, contributing to the team's overall defense.",
       },
     ],
-    skills: [
-      "Serving Technique: Must have exceptional serving skills, including power and accuracy.",
-      "Strategic Thinking: Requires the ability to place serves strategically to challenge the opponent.",
-      "Consistency: Needs to serve consistently well under various game conditions.",
-      "Composure: Must stay calm and focused, especially during high-pressure serves.",
-      "Defensive Awareness: Should transition quickly to a defensive role after serving.",
-    ],
-    attributes: [
-      "Focus: Needs high concentration to deliver accurate and effective serves.",
-      "Stamina: Requires endurance to serve consistently throughout the match.",
-      "Agility: Must be quick and agile to transition to defense after serving.",
-      "Confidence: Needs confidence to execute serves effectively, especially in pressure situations.",
-      "Team Awareness: Must be aware of team strategies and opponent's weaknesses to serve effectively.",
-    ],
+
     importance:
       "The Serving Specialist plays a crucial role in setting the tone for each rally with powerful and strategic serves. Their ability to deliver consistent and challenging serves can create scoring opportunities and put pressure on the opponent's serve reception. As a key contributor to the team's offense and defense, the Serving Specialist's performance is vital to the team's overall success.",
   },

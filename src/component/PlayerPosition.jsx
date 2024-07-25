@@ -1,4 +1,4 @@
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 const PlayerPosition = ({ value, index }) => {
   return (
@@ -32,7 +32,7 @@ const PlayerPosition = ({ value, index }) => {
           bounce: 2,
           stiffness: 300,
         }}
-        className="p-3 flex flex-col items-center gap-5 w-[300px] lg:w-[360px] lg:h-[430px] cursor-pointer bg-slate-600 shadow-xl rounded-lg overflow-hidden "
+        className=" p-3 flex flex-col items-center gap-5 w-[300px] lg:w-[360px] lg:h-[430px] cursor-pointer bg-slate-600 shadow-xl rounded-lg overflow-hidden "
       >
         <motion.div
           whileHover={{
@@ -53,7 +53,6 @@ const PlayerPosition = ({ value, index }) => {
         <p className=" text-justify">{value.description}</p>
         <div className="w-full flex justify-end">
           <Link to={"/positioninfo/" + value.id}>
-            {" "}
             <motion.button
               whileTap={{
                 scale: 0.8,

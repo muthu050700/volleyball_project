@@ -44,67 +44,6 @@ const PlayersResponsibility = (props) => {
               </div>
             );
           })}
-
-          {/* <div className="xl:w-[500px] xl:h-[490px] lg:w-[350px] md:w-[250px]  flex flex-col gap-5 relative md:top-10 bg-slate-700">
-            <div className="">
-              <img src={positionInfo1} className=" w-full" />
-            </div>
-            <div className="flex flex-col gap-5 p-2">
-              <div className="flex gap-3">
-                <div className="border rounded-full p-2 mr-2 bg-white w-20 h-20 flex items-center justify-center">
-                  <img src={`${icon}`} className="w-12 " />
-                </div>
-
-                <h1 className="font-bold text-3xl flex items-center">
-                  Right wing spiker
-                </h1>
-              </div>
-              <p>
-                The primary role involves receiving sets and delivering powerful
-                spikes from the right side to score points.
-              </p>
-            </div>
-          </div>
-          <div className="xl:w-[500px] xl:h-[490px] lg:w-[350px] md:w-[250px]  flex flex-col gap-5 bg-slate-700">
-            <div className="">
-              <img src={positionInfo1} />
-            </div>
-            <div className="flex flex-col gap-5 p-2">
-              <div className="flex gap-3">
-                <div className="border rounded-full p-2 mr-2 bg-white w-20 h-20 flex items-center justify-center">
-                  <img src={`${icon}`} className="w-12 " />
-                </div>
-
-                <h1 className="font-bold text-3xl flex items-center">
-                  Right wing spiker
-                </h1>
-              </div>
-              <p>
-                The primary role involves receiving sets and delivering powerful
-                spikes from the right side to score points.
-              </p>
-            </div>
-          </div>
-          <div className="xl:w-[500px] xl:h-[490px] lg:w-[350px] md:w-[250px]  flex flex-col gap-5 relative md:top-10 bg-slate-700">
-            <div className="">
-              <img src={positionInfo1} />
-            </div>
-            <div className="flex flex-col gap-5 p-2">
-              <div className="flex gap-3">
-                <div className="border rounded-full p-2 mr-2 bg-white w-20 h-20 flex items-center justify-center">
-                  <img src={`${icon}`} className="w-12 " />
-                </div>
-
-                <h1 className="font-bold text-3xl flex items-center">
-                  Right wing spiker
-                </h1>
-              </div>
-              <p>
-                The primary role involves receiving sets and delivering powerful
-                spikes from the right side to score points.
-              </p>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
