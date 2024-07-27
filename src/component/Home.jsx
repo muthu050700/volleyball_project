@@ -1,5 +1,6 @@
 import GamesWePlay from "./GamesWePlay";
 import HomeBgImage from "./HomeBgImage";
+import VolleyballRules from "./VolleyballRules/VolleyballRules";
 import VolleybalRoles from "./VolleybalRoles";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <HomeBgImage />
       <VolleybalRoles />
+      <VolleyballRules />
       {/* <GamesWePlay /> */}
     </div>
   );
