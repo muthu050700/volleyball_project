@@ -12,7 +12,7 @@ const OverViewOfPutlur = ({ value }) => {
         <div className="border rounded-full p-1 mr-1 bg-white w-16 h-16 md:w-20 md:h-20 flex items-center justify-center">
           <img src={`${icon}`} className="w-12 " />
         </div>
-        <div className="flex items-center md:w-[600px]">
+        <div className="flex items-center md:w-[600px] lg:w-[700px] xl:w-[600px]">
           <p className=" font-medium md:text-lg text-justify">
             <span className="font-bold md:text-xl">{heading}</span> :{" "}
             {description}
