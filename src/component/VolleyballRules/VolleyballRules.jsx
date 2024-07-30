@@ -1,6 +1,6 @@
 import { volleyballRulesJson } from "../../Utils/volleyballRulesData";
 import RulesDescription from "./RulesDescription";
-
+import { motion } from "framer-motion";
 const VolleyballRules = () => {
   const data = volleyballRulesJson[0].rules;
   const title = volleyballRulesJson[0].title;
@@ -8,7 +8,7 @@ const VolleyballRules = () => {
   return (
     <div className=" bg-slate-800 text-white py-20 px-4">
       <div className="flex flex-col items-center pb-20 gap-5">
-        <h1 className="text-3xl font-bold ">{title}</h1>
+        <motion.h1 className="text-3xl font-bold ">{title}</motion.h1>
         <p className="font-medium text-lg  md:w-[650px] text-justify md:mx-3 ">
           {describtion}
         </p>
@@ -33,78 +33,31 @@ const VolleyballRules = () => {
                 flex flex-col items-center p-3 gap-4 border-l-2 border-b-2 `}
               >
                 <div className="border rounded-full p-2 mr-2 bg-white w-12 h-12 md:w-20 md:h-20 flex items-center justify-center">
-                  <img
+                  <motion.img
+                    whileHover={{
+                      scale: 1.1,
+                    }}
                     src={value.icon}
-                    className="w-12 h-14 flex items-center"
+                    className="w-12 h-14 flex items-center cursor-pointer"
                   />
                 </div>
-                <h1 className="text-2xl font-bold">{value.category}</h1>
+                <motion.h1
+                  whileHover={{
+                    borderBottom: "3px solid white",
+                    duration: 10,
+                  }}
+                  transition={{
+                    duration: 10,
+                  }}
+                  className="text-2xl font-bold cursor-pointer"
+                >
+                  {value.category}
+                </motion.h1>
                 <RulesDescription value={value.rules} />
               </div>
             </>
           );
         })}
-
-        {/* <div className="w-[400px]  border-b-2 border-r-2 flex flex-col items-center p-3 gap-4 ">
-          <div className="border rounded-full p-2 mr-2 bg-white w-12 h-12  md:w-20 md:h-20 flex items-center justify-center">
-            <img src={icon} className="w-12" />
-          </div>
-          <h1 className="text-2xl font-bold">Heading</h1>
-          <p className="text-lg font-medium text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-            quaerat itaque ducimus minus! Veritatis odit excepturi, ad numquam
-            quod ipsam, dolorum in ratione, est porro voluptatum labore quisquam
-            nisi repudiandae.
-          </p>
-        </div>
-        <div className="w-[400px]  border-b-2 border-r-2 flex flex-col items-center p-3 gap-4 ">
-          <div className="border rounded-full p-2 mr-2 bg-white w-12 h-12  md:w-20 md:h-20 flex items-center justify-center">
-            <img src={icon} className="w-12" />
-          </div>
-          <h1 className="text-2xl font-bold">Heading</h1>
-          <p className="text-lg font-medium text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-            quaerat itaque ducimus minus! Veritatis odit excepturi, ad numquam
-            quod ipsam, dolorum in ratione, est porro voluptatum labore quisquam
-            nisi repudiandae.
-          </p>
-        </div>
-        <div className="w-[400px]  border-b-2 border-r-2 flex flex-col items-center p-3 gap-4 ">
-          <div className="border rounded-full p-2 mr-2 bg-white w-12 h-12  md:w-20 md:h-20 flex items-center justify-center">
-            <img src={icon} className="w-12" />
-          </div>
-          <h1 className="text-2xl font-bold">Heading</h1>
-          <p className="text-lg font-medium text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-            quaerat itaque ducimus minus! Veritatis odit excepturi, ad numquam
-            quod ipsam, dolorum in ratione, est porro voluptatum labore quisquam
-            nisi repudiandae.
-          </p>
-        </div>
-        <div className="w-[400px]  border-b-2 border-r-2 flex flex-col items-center p-3 gap-4 ">
-          <div className="border rounded-full p-2 mr-2 bg-white w-12 h-12  md:w-20 md:h-20 flex items-center justify-center">
-            <img src={icon} className="w-12" />
-          </div>
-          <h1 className="text-2xl font-bold">Heading</h1>
-          <p className="text-lg font-medium text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-            quaerat itaque ducimus minus! Veritatis odit excepturi, ad numquam
-            quod ipsam, dolorum in ratione, est porro voluptatum labore quisquam
-            nisi repudiandae.
-          </p>
-        </div>
-        <div className="w-[400px]  border-b-2 border-r-2 flex flex-col items-center p-3 gap-4 ">
-          <div className="border rounded-full p-2 mr-2 bg-white w-12 h-12  md:w-20 md:h-20 flex items-center justify-center">
-            <img src={icon} className="w-12" />
-          </div>
-          <h1 className="text-2xl font-bold">Heading</h1>
-          <p className="text-lg font-medium text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit
-            quaerat itaque ducimus minus! Veritatis odit excepturi, ad numquam
-            quod ipsam, dolorum in ratione, est porro voluptatum labore quisquam
-            nisi repudiandae.
-          </p>
-        </div> */}
       </div>
     </div>
   );

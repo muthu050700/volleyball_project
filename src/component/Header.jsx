@@ -15,7 +15,7 @@ const Header = () => {
   const { pathname } = useLocation();
 
   return (
-    <div className="fixed bg-opacity-10 bg-black z-10 w-full md:h-[80px] flex justify-between items-center">
+    <div className="fixed bg-opacity-10 bg-black w-full md:h-[80px] flex justify-between items-center z-20">
       {/* logo */}
       <div className=" w-20 md:w-24 m-3 md:m-4">
         <img src={logo} />

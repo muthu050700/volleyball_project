@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div>
       <HomeBgImage />
-      <VolleybalRoles />
       <VolleyballRules />
+      <VolleybalRoles />
       {/* <GamesWePlay /> */}
     </div>
   );
