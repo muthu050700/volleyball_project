@@ -5,10 +5,12 @@ const HeroBgForRouters = ({ title }) => {
   const { pathname } = useLocation();
   return (
     <div>
-      <div className="text-white flex items-center h-[60vh] justify-end">
-        <h1 className="font-bold text-6xl main-title z-10 lg:mr-32">{title}</h1>
+      <div className="text-white flex items-center h-[60vh] justify-center md:justify-end">
+        <h1 className="font-bold md:text-6xl text-3xl text-center main-title z-10 lg:mr-32">
+          {title}
+        </h1>
       </div>
-      <div className="absolute bg-red-700 px-3 py-2 left-[50%] bottom-[-30px] right-[50%] w-fit btn-shape">
+      <div className="absolute bg-red-700 px-3 py-2 md:left-[40%] lg:left-[40%] xl:left-[45%] bottom-[-30px] xl:right-[50%] w-fit btn-shape ">
         {navlink.map((value) => {
           return (
             <div key={value.id} className="flex">

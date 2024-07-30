@@ -1,6 +1,7 @@
 import { about_bg_img } from "../../Utils/ConstantForAbout";
 
 import HeroBgForRouters from "../HeroBgForRouters";
+import AboutPutlurVillage from "./AboutPutlurVillage";
 const About = () => {
   return (
     <div>
@@ -11,6 +12,9 @@ const About = () => {
         <div className="absolute bg-gradient-to-r from-gray-900 to-zinc-950 opacity-50   w-full h-[60vh]"></div>
         <div>
           <HeroBgForRouters title={" About Us: Our Team and Heritage"} />
+        </div>
+        <div className="bg-black  w-full flex justify-center xl:h-screen items-center py-20 ">
+          <AboutPutlurVillage />
         </div>
       </div>
     </div>
