@@ -1,5 +1,7 @@
 // Importing main bg-image
 import bg_img from "../public/about_img_gallery/main_bg_img.jpg";
+//Importing Our Team Bg-image
+import our_team_img from "../public/about_img_gallery/our_team.jpg";
 //Icons
 import Icon1 from "../public/about_img_gallery/about_icons/villagetocity.png";
 import Icon2 from "../public/about_img_gallery/about_icons/history.png";
@@ -13,8 +15,14 @@ import villageImg_2 from "../public/about_img_gallery/bg_village_img.png";
 //Icons
 import { GiVillage } from "react-icons/gi";
 
+//About PVR Team Image
+import groundImage from "../public/about_img_gallery/ground-4.jpeg";
+export const ground_img = groundImage;
 //main bg-image
 export const about_bg_img = bg_img;
+
+//Eporting Our_Team_bg-img
+export const team_img = our_team_img;
 
 //village image of putlur
 export const putlur_img_1 = villageImg_1;

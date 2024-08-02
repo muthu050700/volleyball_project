@@ -2,6 +2,7 @@ import { about_bg_img } from "../../Utils/ConstantForAbout";
 
 import HeroBgForRouters from "../HeroBgForRouters";
 import AboutPutlurVillage from "./AboutPutlurVillage";
+import KnowAboutPVRTeam from "./KnowAboutPVRTeam";
 const About = () => {
   return (
     <div>
@@ -15,6 +16,9 @@ const About = () => {
         </div>
         <div className="bg-black  w-full flex justify-center xl:h-screen items-center py-20 ">
           <AboutPutlurVillage />
+        </div>
+        <div>
+          <KnowAboutPVRTeam />
         </div>
       </div>
     </div>
