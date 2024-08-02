@@ -24,7 +24,7 @@ const AboutPutlurVillage = () => {
         </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <div className="text-white md:xl:w-[600px] xl:w-[700px] md:h-[600px] ">
           <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl pb-5 text-center">
             Putlur: From Obscurity to a Revered Pilgrimage Site
