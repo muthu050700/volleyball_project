@@ -69,3 +69,48 @@ export const putlurData = [
 
 //Icons
 export const villageIcon = Icon1;
+
+//About data for PVR Volleyball team
+
+export const aboutTeamData = [
+  {
+    id: "1",
+    title: "About us",
+    sub_title: "About PVR Volleyball Team",
+    image: groundImage,
+    description:
+      "We are the PVR Volleyball Team, proudly representing this spiritually significant and peaceful village. With around 30 to 35 enthusiastic players, our team comes together to enjoy the game, stay fit, and foster a strong sense of community.",
+  },
+  {
+    id: "2",
+    title: "Our Community:",
+    sub_title: "Our Shared Passion",
+    image: groundImage,
+    description:
+      "In the village of Putlur, a group of 30 to 35 of us regularly come together to share our love for volleyball. This shared passion not only keeps us active but also strengthens our bonds and brings us closer as a group.",
+  },
+  {
+    id: "3",
+    title: "Our Purpose",
+    sub_title: "Fun, Fitness, and Friendship",
+    image: groundImage,
+    description:
+      "We play volleyball not just for the love of the game, but also to have fun and stay fit. Our friendly matches are a way to build camaraderie and strengthen our bonds, all while enjoying the sport we’re passionate about.",
+  },
+  {
+    id: "4",
+    title: "Annual Tournament",
+    sub_title: "Pongal Tournament: A Friendly Competition",
+    image: groundImage,
+    description:
+      "Every January 15th, we organize a Pongal Tournament where 5 to 6 teams compete in friendly matches among ourselves. It’s a fun and engaging event that allows us to enjoy the sport, challenge each other, and strengthen our bonds as a team.",
+  },
+  {
+    id: "5",
+    title: "Awards and Recognition",
+    sub_title: "Celebrating Our Achievements",
+    image: groundImage,
+    description:
+      "In our Pongal Tournament, the winners are honored with a Cup, while the runners receive a Runner Cup. Additionally, each player is awarded a medal to acknowledge their participation and effort.",
+  },
+];
